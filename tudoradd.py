@@ -3,7 +3,7 @@ questions = int(input("How many questions? Resopnd in numbers. " ))
 
 # DMOJ answer
 n = input()
-for i in xrange(n)
+for i in range(n)
     a, b = map(int, input().split()) #with multiple inputs in the same line, we need to use the split function)
     print(a + b)
 
